@@ -40,4 +40,12 @@
         android:inputType="textPersonName"
         android:text="Name hello my name is" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="323dp"
+        android:layout_height="329dp"
+        app:layout_anchor="@+id/imageView"
+        app:layout_anchorGravity="bottom|center"
+        tools:srcCompat="@tools:sample/avatars" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
